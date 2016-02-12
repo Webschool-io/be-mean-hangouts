@@ -38,12 +38,12 @@
     </aside>
     <section ng-repeat="hangout in hangouts | filter:query" class="grid-25 mobile-grid-100 tablet-grid-33 hangout">
       <header>
-        <a href="https://www.youtube.com/watch?v={{hangout.link}}">
+        <a href="{{hangout.link}}">
           <img src="{{hangout.thumbnail}}" alt="{{hangout.titulo}}" title="{{hangout.titulo}}">
         </a>
       </header>
       <article>
-        <a href="https://www.youtube.com/watch?v={{hangout.link}}">{{hangout.titulo}}</a>
+        <a href="{{hangout.link}}">{{hangout.titulo}}</a>
       </article>
       <footer>
         <span>Tema: {{hangout.tema}}</span>
