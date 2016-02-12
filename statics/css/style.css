@@ -4,16 +4,19 @@
 body,html{  width: 100%;  height: 100%}
 
 #footer-hangouts{  height: 100px;}
-#header-hangouts{  
- margin-bottom: 10px;  background: #f0bc00;}
+#header-hangouts{ 
+   position: fixed;
+   margin-bottom: 10px;  background: #f0bc00;
+       box-shadow: 0px 0px 24px 0px #A2A1A1;
+}
 #header-hangouts figure { text-align: center; }
 #header-hangouts img{  
   width: 100%;
   max-height: 150px;
 }
-#header-hangouts h1{  line-height: 80px;  color: white;  font-style: italic;  font-weight: 500;  text-transform: uppercase;}
+#header-hangouts h1{  line-height: 80px;  color: white;  font-style: italic;  font-weight: 500;  }
 
-#destaque{  background: black;  padding-top: 50px;  padding-bottom: 25px;  text-align: center;}
+#destaque{  background: black;  padding-top: 130px;  padding-bottom: 25px;  text-align: center;}
 #destaque iframe{    border: none;}
 #destaque hgroup{  color: white;  font-weight: 500;}
 #destaque hgroup h2{  margin-top: 10px;  font-weight: 500;  font-style: italic;}
