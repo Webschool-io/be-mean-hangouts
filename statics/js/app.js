@@ -14,7 +14,7 @@ var app = angular.module('hangouts',[])
                       }
 
                       $http({
-                        url:'/statics/data.json'
+                        url:'statics/data.json'
                       }).then(function (data) {
                         console.info(data);
                         $scope.hangouts = data.data;
