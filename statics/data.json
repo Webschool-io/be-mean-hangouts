@@ -5,7 +5,7 @@
       , "link" : "https://www.youtube.com/watch?v=-A2Zq5IVf7Y"
       , "tema" : "Automatização"
       , "professor" : {
-          "name" : "Jorge Rafael - Kurybr"
+          "nome" : "Jorge Rafael - Kurybr"
         , "github": "https://github.com/kurybr"
       }
   },
@@ -15,7 +15,7 @@
       , "link" : "https://www.youtube.com/watch?v=F-qAk8Uz-8A"
       , "tema" : "CSS"
       , "professor" : {
-          "name" : "Adejair Júnior - Adejair"
+          "nome" : "Adejair Júnior - Adejair"
         , "github": "https://github.com/Adejair"
       }
   }

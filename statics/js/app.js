@@ -5,14 +5,15 @@ var app = angular.module('hangouts',[])
                       console.info("Teste");
                       
                       $scope.destaque = {
-                          link : $sce.trustAsResourceUrl("https://www.youtube.com/embed/OCB7jMZBIas")
-                        , titulo : "Webschool.io - Be MEAN - Node.js - Aula 09 - TDD parte 2"
-                        , professor : {
-                            nome : "Jean Suissa"
-                          , github : "https://github.com/suissa"
+                          link : $sce.trustAsResourceUrl("https://www.youtube.com/embed/F-qAk8Uz-8A")
+                        , "titulo" : "Grunts VS Gulp [AUTOMATIZAÇÃO]"
+                        , "tema" : "Automatização"
+                        , "professor" : {
+                            "nome" : "Adejair Júnior - Adejair"
+                          , "github": "https://github.com/Adejair"
                         }
                       }
-
+                      
                       $http({
                         url:'statics/data.json'
                       }).then(function (data) {
