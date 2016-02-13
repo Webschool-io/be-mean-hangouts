@@ -3,17 +3,17 @@
         "thumbnail" : "https://i.ytimg.com/vi_webp/-A2Zq5IVf7Y/mqdefault.webp"
       , "titulo" : "Olhando com olhos de Front-End - CSS"
       , "link" : "https://www.youtube.com/watch?v=-A2Zq5IVf7Y"
-      , "tema" : "Automatização"
+      , "tema" : "CSS"
       , "professor" : {
           "nome" : "Jorge Rafael - Kurybr"
         , "github": "https://github.com/kurybr"
       }
   },
   { 
-        "thumbnail" : "https://i.ytimg.com/vi_webp/F-qAk8Uz-8A/mqdefault.webp"
+        "thumbnail" : "https://i.ytimg.com/vi_webp/8b-9eI-0c6I/mqdefault.webp"
       , "titulo" : "Grunts VS Gulp [AUTOMATIZAÇÃO]"
-      , "link" : "https://www.youtube.com/watch?v=F-qAk8Uz-8A"
-      , "tema" : "CSS"
+      , "link" : "https://www.youtube.com/watch?v=8b-9eI-0c6I"
+      , "tema" : "Automatização"
       , "professor" : {
           "nome" : "Adejair Júnior - Adejair"
         , "github": "https://github.com/Adejair"
