@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="hangouts">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Be Mean - Hangouts</title>
+  <link rel="stylesheet" href="statics/css/unsemantic-grid-responsive-tablet.css">
+  <link rel="stylesheet" href="statics/css/style.css">
+</head>
+<body ng-controller="HangoutListController">
+  <header class="grid-100 mobile-grid-100 tablet-grid-100" id="header-hangouts"> <!-- cabeçalho -->
+    <figure class="grid-10 mobile-grid-100 tablet-grid-10">
+      <img src="statics/img/logo.png" alt="">
+    </figure>
+    <div class="grid-90 tablet-grid-90 mobile-grid-100">
+        <h1>Be Mean - Hangouts</h1>
+    </div>
+  </header>
+    <!-- Conteudo do site -->
+    <section class="grid-100 grid-100 mobile-grid-100 tablet-grid-100" id="destaque">
+        <!-- Sessão para o video Principal -->
+        <iframe class="grid-60 prefix-20 suffix-20
+        mobile-grid-100
+        tablet-grid-80 tablet-prefix-10 tablet-suffix-10" ng-src="{{destaque.link}}" allowfullscreen></iframe>
+        <hgroup class="grid-100 mobile-grid-100 tablet-grid-100">
+          <h2>{{destaque.titulo}}</h2>
+          <h3>
+            Prof. <a href="{{destaque.professor.github}}">{{destaque.professor.nome}}</a>
+          </h3>
+        </hgroup>
+    </section>
+    <aside class="grid-100 mobile-grid-100 tablet-grid-100" id="filtro">
+      <!-- Filtro de pesquisa -->
+      <input type="search" placeholder="Pesquise..." value="" ng-model="query.titulo">
+    </aside>
+    <section ng-repeat="hangout in hangouts | filter:query" class="grid-25 mobile-grid-100 tablet-grid-33 hangout">
+      <header>
+        <a href="javascript:void(0)" ng-click="setDestaque(hangout)">
+          <img src="{{hangout.thumbnail}}" alt="{{hangout.titulo}}" title="{{hangout.titulo}}">
+        </a>
+      </header>
+      <article>
+        <a href="javascript:void(0)" ng-click="setDestaque(hangout)">{{hangout.titulo}}</a>
+      </article>
+      <footer>
+        <span>Tema: {{hangout.tema}}</span>
+        <p>Prof: <a href="{{hangout.professor.github}}">{{hangout.professor.nome}}</a></p>
+      </footer>
+    </section>
+    <footer id="footer-hangouts" class="grid-100"></footer>
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
+
+    <script src="statics/js/app.js"></script>
+    <script src="statics/js/controllers/hangout/hangoutList.js"></script>
+    <script src="statics/js/services/hangout.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-66083986-3', 'auto');
+      ga('send', 'pageview');
+  </script>
+</body>
+</html>
