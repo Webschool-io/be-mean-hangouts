@@ -1,0 +1,1 @@
+const map=function(n,t){return t.reduce(function(n,t){return n.concat(t)},[])},filter=function(n,t){return t.reduce(function(t,c){return n(c)?t.concat(n(c)):t},[])};
