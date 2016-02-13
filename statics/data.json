@@ -1,12 +1,17 @@
+
+/*
+Coloque sempre em primeiro conforme for adicionando os Hangouts, !! (da menos trabalho :P)
+O Video em destauqe será sempre o primeiro listado aqui .. 
+*/
 [
   { 
-        "thumbnail" : "https://i.ytimg.com/vi_webp/-A2Zq5IVf7Y/mqdefault.webp"
-      , "titulo" : "Olhando com olhos de Front-End - CSS"
-      , "link" : "https://www.youtube.com/watch?v=-A2Zq5IVf7Y"
-      , "tema" : "CSS"
+        "thumbnail" : "https://i.ytimg.com/vi_webp/VsQAeTjYTs8/mqdefault.webp"
+      , "titulo" : "Brincando com Appcelerator #1.1"
+      , "link" : "https://www.youtube.com/watch?v=VsQAeTjYTs8"
+      , "tema" : "Mobile"
       , "professor" : {
-          "nome" : "Jorge Rafael - Kurybr"
-        , "github": "https://github.com/kurybr"
+          "nome" : "Douglas Hennrich - DouglasHennrich"
+        , "github": "https://github.com/DouglasHennrich"
       }
   },
   { 
@@ -17,6 +22,16 @@
       , "professor" : {
           "nome" : "Adejair Júnior - Adejair"
         , "github": "https://github.com/Adejair"
+      }
+  },
+  { 
+        "thumbnail" : "https://i.ytimg.com/vi_webp/-A2Zq5IVf7Y/mqdefault.webp"
+      , "titulo" : "Olhando com olhos de Front-End - CSS"
+      , "link" : "https://www.youtube.com/watch?v=-A2Zq5IVf7Y"
+      , "tema" : "CSS"
+      , "professor" : {
+          "nome" : "Jorge Rafael - Kurybr"
+        , "github": "https://github.com/kurybr"
       }
   }
 ]

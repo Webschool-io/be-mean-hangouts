@@ -2,8 +2,8 @@ angular.module('hangouts.controllers')
   .controller('HangoutListController', ['$scope', '$sce', 'Hangout', function($scope, $sce, Hangout) {
     Hangout.query({}, function(response) {
       
-      var destaque = response[response.length -1];
-      $scope.hangouts = response.reverse();
+      var destaque = response[0];
+      $scope.hangouts = response;
       $scope.setDestaque(destaque);
     });
 
