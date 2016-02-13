@@ -1,1 +1,0 @@
-angular.module("hangouts.services").service("Hangout",["$resource",function(e){return e("statics/data.json")}]);
