@@ -1,6 +1,6 @@
 # Be MEAN Hangouts
 
-Hangouts diversos feitos pelos alunos do Be MEAN para sua turma. 
+Hangouts diversos feitos pelos alunos do Be MEAN para sua turma.
 
 
 ## CSS - 11/02/2016
@@ -13,5 +13,9 @@ Hangouts diversos feitos pelos alunos do Be MEAN para sua turma.
 ## NodeJS - Gulp - 13/02/2016
 
 - Prof: [Adejair Júnior - Adejair](https://github.com/Adejair)
-- Hangout: [https://www.youtube.com/watch?v=8b-9eI-0c6)[https://www.youtube.com/watch?v=8b-9eI-0c6I]
+- Hangout:
+[https://www.youtube.com/watch?v=8b-9eI-0c6I](https://www.youtube.com/watch?v=8b-9eI-0c6I)
 
+- Slides [adejairjunior.com.br/hangouts/](http://adejairjunior.com.br/hangouts/)
+
+[![AWESOOOOME SLIDE HEHE](http://i.imgur.com/gcm7sKD.png)](https://www.youtube.com/watch?v=8b-9eI-0c6I)
