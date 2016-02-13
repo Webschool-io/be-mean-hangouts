@@ -1,4 +1,4 @@
 angular.module('hangouts.services')
     .service('Hangout', ['$resource', function($resource) {
-        return $resource('/statics/data.json');
+        return $resource('statics/data.json');
     }]);
