@@ -1,0 +1,17 @@
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button{
+  background: orange;
+}
+
+a[title~="Primário"]{
+  text-decoration: none;
+}
+
+a[title$="ria"]{
+  text-decoration: overline;
+}
+a[data-mes="marco"]{
+  color:orange;
+}

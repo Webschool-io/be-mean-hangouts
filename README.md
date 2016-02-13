@@ -10,6 +10,7 @@ Para querer fazer um hangout você precisa criar uma [issue](https://github.com/
 
 - Prof: [Jorge Rafael - kurybr](https://github.com/kurybr)
 - Hangout: [https://www.youtube.com/watch?v=-A2Zq5IVf7Y](https://www.youtube.com/watch?v=-A2Zq5IVf7Y)
+- Slides: [Aqui](hangouts-resources/#01-css-kurybr/slides.pdf)
 
 [![CSS MOTHERFUCKER](https://cldup.com/LKM9vvDAeY.png)](https://www.youtube.com/watch?v=-A2Zq5IVf7Y)
 

@@ -1,0 +1,52 @@
+/*
+li:first-child{ color: green;}
+li:last-child{ color:orange; }
+li:nth-child(2n+1){ color:red; }
+*/
+
+td{
+  width: 100px;
+  height: 10px;
+  border:1px solid black;
+}
+
+
+/*tr:first-child td{
+  background:red;
+}
+
+tr:last-child td{
+  background: purple;
+}
+
+*/
+
+/*
+tr td:empty{
+  border-color: red;
+}
+*/
+
+/*
+tr:nth-child(2n+2){}
+tr:not(.cancelado){
+    background: orange;
+}
+*/
+
+blockquote{
+  font-style: italic
+}
+blockquote:before{
+  content: attr(data-mes);
+}
+blockquote:after{
+  content: close-quote;
+}
+
+blockquote:before,
+blockquote:after{
+  /*font-size: 45px;*/
+}
+
+

@@ -1,0 +1,24 @@
+@media(min-width:1000px){
+
+  body{
+    background: black;
+  }
+
+}
+
+@media(min-width:700px) and (max-width:999px){
+
+  body{
+    background: orange;
+  }
+
+}
+
+@media(max-width:699px){
+
+  body{
+    background: green;
+  }
+
+}
+

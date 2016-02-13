@@ -1,0 +1,8 @@
+*{
+   /* Reset do CSS */
+   color: red;
+}
+
+div * {
+  color: blue;
+}

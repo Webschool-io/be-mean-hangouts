@@ -1,0 +1,35 @@
+body,
+html{
+  font-size: 16px;
+}
+
+
+.container{
+  font-size: 20px;
+}
+
+p{
+  /*
+  px 
+  em
+  rem
+  */
+  /*font-size: 16px;*/
+  /* 
+    1rem == 16px
+
+    16 / 15 = x
+    base 16
+    15px == 0.96rem
+    
+  */
+  /*
+    font-size: 0.9375rem;
+  */
+  font-size: 15px;
+}
+
+
+.primeiro{}
+.segundo{}
+.terceiro{}
