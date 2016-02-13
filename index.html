@@ -6,24 +6,21 @@
   <title>Be Mean - Hangouts</title>
   <link rel="stylesheet" href="statics/css/unsemantic-grid-responsive-tablet.css">
   <link rel="stylesheet" href="statics/css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-
-  <script src="statics/js/app.js"></script>
 </head>
-<body ng-controller="moviesController"> 
+<body ng-controller="HangoutListController">
   <header class="grid-100 mobile-grid-100 tablet-grid-100" id="header-hangouts"> <!-- cabeçalho -->
     <figure class="grid-10 mobile-grid-100 tablet-grid-10">
       <img src="statics/img/logo.png" alt="">
-    </figure> 
+    </figure>
     <div class="grid-90 tablet-grid-90 mobile-grid-100">
-        <h1>Be Mean - Hangouts</h1>  
-    </div>    
+        <h1>Be Mean - Hangouts</h1>
+    </div>
   </header>
     <!-- Conteudo do site -->
     <section class="grid-100 grid-100 mobile-grid-100 tablet-grid-100" id="destaque">
         <!-- Sessão para o video Principal -->
-        <iframe class="grid-60 prefix-20 suffix-20 
-        mobile-grid-100 
+        <iframe class="grid-60 prefix-20 suffix-20
+        mobile-grid-100
         tablet-grid-80 tablet-prefix-10 tablet-suffix-10" ng-src="{{destaque.link}}" allowfullscreen></iframe>
         <hgroup class="grid-100 mobile-grid-100 tablet-grid-100">
           <h2>{{destaque.titulo}}</h2>
@@ -38,12 +35,12 @@
     </aside>
     <section ng-repeat="hangout in hangouts | filter:query" class="grid-25 mobile-grid-100 tablet-grid-33 hangout">
       <header>
-        <a href="{{hangout.link}}">
+        <a href="javascript:void(0)" ng-click="setDestaque(hangout)">
           <img src="{{hangout.thumbnail}}" alt="{{hangout.titulo}}" title="{{hangout.titulo}}">
         </a>
       </header>
       <article>
-        <a href="{{hangout.link}}">{{hangout.titulo}}</a>
+        <a href="javascript:void(0)" ng-click="setDestaque(hangout)">{{hangout.titulo}}</a>
       </article>
       <footer>
         <span>Tema: {{hangout.tema}}</span>
@@ -51,5 +48,13 @@
       </footer>
     </section>
     <footer id="footer-hangouts" class="grid-100"></footer>
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
+
+    <script src="statics/js/app.js"></script>
+    <script src="statics/js/controllers/hangout/hangoutList.js"></script>
+    <script src="statics/js/services/hangout.js"></script>
 </body>
 </html>
