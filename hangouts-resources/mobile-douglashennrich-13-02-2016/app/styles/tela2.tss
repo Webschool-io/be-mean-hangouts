@@ -1,9 +1,0 @@
-"Window":{
-  navBarHidden: false
-  , backButtonTitle: 'nudes'
-  , tintColor: 'red'
-}
-
-"#webView": {
-
-}

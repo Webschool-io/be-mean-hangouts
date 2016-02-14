@@ -1,5 +1,0 @@
-<Alloy>
-  <Window id='win' onOpen='openWindow'>
-    <WebView id='webView'/>
-  </Window>
-</Alloy>
