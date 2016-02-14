@@ -6,7 +6,7 @@ body,html{  width: 100%;  height: 100%}
 #footer-hangouts{  height: 100px;}
 #header-hangouts{ 
    position: fixed;
-   margin-bottom: 10px;  background: #f0bc00;
+   margin-bottom: 10px;  background: #146E87;
 }
 #header-hangouts figure { text-align: center; }
 #header-hangouts img{  
