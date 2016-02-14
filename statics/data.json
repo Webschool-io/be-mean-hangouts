@@ -1,5 +1,14 @@
-
 [
+  { 
+        "thumbnail" : "https://i.ytimg.com/vi_webp/Vk0vxpbXvA8/mqdefault.webp"
+      , "titulo" : "Treinando Modelagens noSQL"
+      , "link" : "https://www.youtube.com/watch?v=Vk0vxpbXvA8"
+      , "tema" : "MongoDB"
+      , "professor" : {
+          "nome" : "Paulo Silva"
+        , "github": "https://github.com/PauloSilva92"
+      }
+  },
   { 
         "thumbnail" : "https://i.ytimg.com/vi_webp/VsQAeTjYTs8/mqdefault.webp"
       , "titulo" : "Brincando com Appcelerator #1.1"
