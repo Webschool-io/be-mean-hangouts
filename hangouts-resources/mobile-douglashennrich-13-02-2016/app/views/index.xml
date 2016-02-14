@@ -1,0 +1,16 @@
+<Alloy>
+	<NavigationWindow platform='ios' id='nav'>
+		<Window id='win'>
+			<View id='navTop'>
+				<View id='fileteTop'/>
+				<Label id='tituloWindow'/>
+			</View>
+
+			<View class="winContainer">
+				<Label class='exo-bold' id='texto' onClick="clickFunc"/>
+
+				<TableView id='tableView' onClick="touchRow"/>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>
