@@ -1,0 +1,13 @@
+{ 
+    usuario : { type : ObjectId }
+  , data : { type : Date }
+  , ingresso : [
+    {
+      evento : { type : ObjectId },
+      valor  : { type : Number },
+      tipo   : { type : String } // M I
+    }
+  ]
+  , total : { type : Number }
+  , quantidade : { type : Number }
+}

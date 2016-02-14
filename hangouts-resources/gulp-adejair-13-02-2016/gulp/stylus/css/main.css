@@ -1,0 +1,10 @@
+@media (max-width: 900px) and (min-width: 520px) {
+  body {
+    background-color: #e10c99;
+  }
+}
+@media (max-width: 500px) and (min-width: 100px) {
+  body {
+    background-color: #ffc800;
+  }
+}

@@ -1,0 +1,20 @@
+{ 
+  descricao : { type : String },
+  data      : { type : Date },
+  resumo    : { type : String },
+  imagem    : { type : Binary },
+  categoria : { type : String },
+  integrantes : [
+    { 
+      funcao : { type : String }
+      nome   : { type : String }
+    }
+  ],
+  ambiente : { 
+    descricao     : { type : String },
+    setor         : { type : String },
+    local         : { type : String },
+    referencia    : { type : String },
+    tipo_ambiente : { type : String }
+  }
+}
