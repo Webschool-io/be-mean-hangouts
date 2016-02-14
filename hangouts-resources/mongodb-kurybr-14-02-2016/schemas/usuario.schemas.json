@@ -1,0 +1,5 @@
+{ 
+  nome  : { type : String } ,
+  email : { type : String },
+  cpf   : { type : String }
+}
