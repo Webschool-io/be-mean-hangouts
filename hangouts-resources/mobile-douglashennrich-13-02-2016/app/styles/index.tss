@@ -1,0 +1,78 @@
+/*
+*/
+"#nav":{
+	tintColor: 'red'
+}
+
+/*
+*/
+"#texto":{
+	color: '#000'
+	, text: 'Testando @'
+	, font: { fontSize: 18 }
+	, top: '5%'
+}
+
+/*
+*/
+"#tableView":{
+	top: '10%'
+	, backgroundColor: 'transparent'
+	, separatorColor: 'transparent'
+	, selectionStyle: "NONE"
+}
+
+/*
+*/
+"#row":{
+	height: 80
+}
+
+/*
+*/
+"#imgRow":{
+	width: 50
+	, height: 50
+	, borderRadius: 25
+	, left: '5%'
+	, defaultImage: 'transparent'
+}
+
+/*
+*/
+"#titleRow":{
+	left: '25%'
+	, top: '5%'
+	, font: { fontSize: 16 }
+	, textAlign: 'left'
+	, color: '#6E1010'
+}
+
+/*
+*/
+"#descRow":{
+	left: '25%'
+	, top: '25%'
+	, bottom: '5%'
+	, right: '15%'
+	, font: { fontSize: 14 }
+	, color: '#B41A1A'
+}
+
+/*
+*/
+"#faIcon":{
+	right: '5%'
+	, font: { fontSize: 20 }
+	, color: '#154F17'
+}
+
+/*
+*/
+"#separatorRow":{
+	height: 1
+	, left: '15%'
+	, right: '15%'
+	, bottom: '2%'
+	, backgroundColor: '#bababa'
+}
