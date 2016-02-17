@@ -1,5 +1,15 @@
 [
   { 
+        "thumbnail" : "https://i.ytimg.com/vi_webp/2rXaXSE2EG0/mqdefault.webp"
+      , "titulo" : "Introdução ao VIM"
+      , "link" : "https://www.youtube.com/watch?v=2rXaXSE2EG0"
+      , "tema" : "VIM"
+      , "professor" : {
+          "nome" : "Paulo Silva - PauloSilva92"
+        , "github": "https://github.com/PauloSilva92"
+      }
+  },
+  { 
         "thumbnail" : "https://i.ytimg.com/vi_webp/e-pYQalLy3U/mqdefault.webp"
       , "titulo" : "Treinando Modelagens noSQL"
       , "link" : "https://www.youtube.com/watch?v=e-pYQalLy3U"
