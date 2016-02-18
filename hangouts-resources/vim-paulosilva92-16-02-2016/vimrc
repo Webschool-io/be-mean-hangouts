@@ -1,0 +1,29 @@
+"" Tecla leader
+	let mapleader = "\<Space>"
+
+"" Salvar apertando espaço+s
+	nnoremap <leader>s :w<cr>
+"" Fechar apertando espaço+q
+	nnoremap <leader>q :q<cr>
+"" Abre o nerdtree
+	nnoremap <leader>o :NERDTree<cr>
+
+set nocompatible
+set number
+set mouse=a
+
+set cursorline 
+
+"" Configs do Vundle
+
+	set nocompatible             
+	filetype off                 
+	set rtp+=~/.vim/bundle/Vundle.vim
+
+	call vundle#begin()
+
+	Plugin 'scrooloose/nerdtree'
+
+	call vundle#end()          
+
+	filetype plugin indent on 
