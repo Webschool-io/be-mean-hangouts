@@ -1,5 +1,15 @@
 [
-  { 
+ {
+        "thumbnail" : "https://i.ytimg.com/vi_webp/bl-OZdhZZ1A/mqdefault.webp"
+      , "titulo" : "Clientes, Contrato, Hora técnica e burocracias"
+      , "link" : "https://www.youtube.com/watch?v=bl-OZdhZZ1A"
+      , "tema" : "Organizacional"
+      , "professor" : {
+          "nome" : "Denis Manzetti - manzettidenis"
+        , "github": "https://github.com/manzettidenis"
+      }
+  },
+  {
         "thumbnail" : "https://i.ytimg.com/vi_webp/2rXaXSE2EG0/mqdefault.webp"
       , "titulo" : "Introdução ao VIM"
       , "link" : "https://www.youtube.com/watch?v=2rXaXSE2EG0"
@@ -9,7 +19,7 @@
         , "github": "https://github.com/PauloSilva92"
       }
   },
-  { 
+  {
         "thumbnail" : "https://i.ytimg.com/vi_webp/e-pYQalLy3U/mqdefault.webp"
       , "titulo" : "Treinando Modelagens noSQL"
       , "link" : "https://www.youtube.com/watch?v=e-pYQalLy3U"
@@ -19,7 +29,7 @@
         , "github": "https://github.com/kurybr"
       }
   },
-  { 
+  {
         "thumbnail" : "https://i.ytimg.com/vi_webp/VsQAeTjYTs8/mqdefault.webp"
       , "titulo" : "Brincando com Appcelerator #1.1"
       , "link" : "https://www.youtube.com/watch?v=VsQAeTjYTs8"
@@ -29,7 +39,7 @@
         , "github": "https://github.com/DouglasHennrich"
       }
   },
-  { 
+  {
         "thumbnail" : "https://i.ytimg.com/vi_webp/8b-9eI-0c6I/mqdefault.webp"
       , "titulo" : "Grunts VS Gulp [AUTOMATIZAÇÃO]"
       , "link" : "https://www.youtube.com/watch?v=8b-9eI-0c6I"
@@ -39,7 +49,7 @@
         , "github": "https://github.com/Adejair"
       }
   },
-  { 
+  {
         "thumbnail" : "https://i.ytimg.com/vi_webp/-A2Zq5IVf7Y/mqdefault.webp"
       , "titulo" : "Olhando com olhos de Front-End - CSS"
       , "link" : "https://www.youtube.com/watch?v=-A2Zq5IVf7Y"
