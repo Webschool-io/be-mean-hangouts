@@ -1,5 +1,15 @@
 [
  {
+        "thumbnail" : "https://i.ytimg.com/vi_webp/ApQ6tY7G8yU/mqdefault.webp"
+      , "titulo" : "Jekyll e Hexo, os WordPress para desenvolvedores"
+      , "link" : "https://www.youtube.com/watch?v=ApQ6tY7G8yU"
+      , "tema" : "Geradores dee Página Estática"
+      , "professor" : {
+          "nome" : "Igor Oliveira - Halfeld"
+        , "github": "https://github.com/Halfeld"
+      }
+ },
+ {
         "thumbnail" : "https://i.ytimg.com/vi_webp/bl-OZdhZZ1A/mqdefault.webp"
       , "titulo" : "Clientes, Contrato, Hora técnica e burocracias"
       , "link" : "https://www.youtube.com/watch?v=bl-OZdhZZ1A"
