@@ -75,6 +75,7 @@ Da trbalho? dá ?
 da resultado ? também dá.
 
 
+
 ## Escutar
     As vezes, por eu saber tanto do que eu faço, e querer FALAR da solução, a gente acaba deixando de prestar a atenção no problema.
     recentemente eu prospectei um DR, e fechamos. Eu insistia em por conteudo, tornar o mais funcional possivel.. e deixei de notar
