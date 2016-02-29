@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+    include _partial/head
+    //- partial('_partial/head')
+
+  body
+    .main
+      h1= config.title
+      h3= __('people.firstname')
+      h3= __('people.lastname')
+      h3= _p('people.years_old')
